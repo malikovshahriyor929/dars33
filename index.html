@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="bg-[#313131]">
+        <input id="check" type="checkbox" />
+        <div class="first_nav flex container2 py-[10px] justify-between">
+          <label for="check" class="close">
+            <i class="fa-solid fa-xmark"></i>
+          </label>
+          <ul class="flex gap-[30px]">
+            <li><a class="text-white" href="#">Главная</a></li>
+            <li><a class="text-white" href="#">О нас</a></li>
+            <li><a class="text-white" href="#">Контакты</a></li>
+          </ul>
+          <div class="flex gap-[20px]">
+            <div>
+              <label class="flex gap-[10px]" for="">
+                <img src="./src/src/assets/svg/phone.svg" alt="" />
+                <a
+                  class="text-white text-[14px] font-[400]"
+                  href="tel:8 (964) 89 99 119"
+                >
+                  8 (964) 89 99 119
+                </a>
+              </label>
+            </div>
+            <div>
+              <label class="flex gap-[10px]" for="">
+                <img src="./src/assets/svg/delivery-icon.svg" alt="" />
+                <a class="text-white text-[14px] font-[400]" href="#Доставка"
+                  >Доставка</a
+                >
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav
+        class="container2 container2 m-auto py-5 flex justify-between items-center gap-5"
+      >
+        <label class="menu" for="check">
+          <img src="./src/assets/svg/menu.svg" alt="" />
+        </label>
+        <img src="./src/assets/svg/logo.svg" alt="" />
+        <div class="search1 flex w-[90%] gap-3 border-2 p-3">
+          <img src="./src/assets/svg/search-icon (1).svg" alt="" />
+          <input
+            class="w-[100%] outline-none"
+            placeholder="Search"
+            type="search"
+          />
+        </div>
+        <div class="flex gap-[10px]">
+          <img
+            class="h-[25px] w-[25px]"
+            src="./src/assets/svg/wishlist-icon.svg"
+            alt=""
+          />
+          <img class="h-[25px] w-[25px]" src="./src/assets/svg/cart.svg" alt="" />
+          <img
+            class="h-[25px] w-[25px]"
+            src="./src/assets/svg/profile-icon.svg "
+            alt=""
+          />
+        </div>
+      </nav>
+      <div class="search2 container2 flex w-[90%] gap-3 border-2 p-3">
+        <img src="./src/assets/svg/search-icon (1).svg" alt="" />
+        <input
+          class="w-[100%] outline-none"
+          placeholder="Search"
+          type="search"
+        />
+      </div>
+      <nav
+        class="navbar_scroll max-xl:overflow-scroll container2 max-xl:w-[1000px ]"
+      >
+        <nav
+          class="navbar_scroll-items max-xl:w-100vw container2 flex justify-around gap-[50px] shadow-navbar_shadow px-[40px] py-[23px]"
+        >
+          <nav class="flex gap-[10px] items-center">
+            <img src="./src/assets/navbar_scroll/scroll1.svg" alt="" />
+            <p>Кухни</p>
+          </nav>
+          <nav class="flex gap-[10px] items-center">
+            <img src="./src/assets/navbar_scroll/scroll2.svg" alt="" />
+            <p>Спальни</p>
+          </nav>
+          <nav class="flex gap-[10px] items-center">
+            <img src="./src/assets/navbar_scroll/scroll3.svg" alt="" />
+            <p>Гостинные</p>
+          </nav>
+          <nav class="flex gap-[10px] items-center">
+            <img src="./src/assets/navbar_scroll/scroll4.svg" alt="" />
+            <p>Прихожие</p>
+          </nav>
+          <nav class="flex gap-[10px] items-center">
+            <img src="./src/assets/navbar_scroll/scroll5.svg" alt="" />
+            <p>Офисная мебель</p>
+          </nav>
+          <nav class="flex gap-[10px] items-center">
+            <img src="./src/assets/navbar_scroll/scroll6.svg" alt="" />
+            <p>Детская</p>
+          </nav>
+          <nav class="flex gap-[10px] items-center">
+            <span>Акция</span>
+          </nav>
+          <nav class="flex gap-[10px] items-center">
+            <img src="./src/assets/navbar_scroll/scroll7.svg" alt="" />
+          </nav>
+        </nav>
+      </nav>
+    </header>
+    <section class="showcase">
+      <div class="container2 post">
+        <!-- Swiper -->
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="showcase_swiper">
+                <img class="w-[100%]" src="./src/assets/svg/showcase.svg" alt="" />
+
+                <div class="showcase_swiper-item flex flex-col">
+                  <h1 class="text-[50px] uppercase max-[970px]:text-[30px]  text-[#3c3c3c]">
+                    loft <br />
+                    мебель
+                  </h1>
+                  <p class="pb-2">Современная и удобная <br class="br"> мебель в Анапе</p>
+                  <button
+                    class="bg-white border-none py-[14px] px-[15px] shadow-navbar_shadow text-[12px] text-[#414141]"
+                  >
+                    СМОТРЕТЬ КАТАЛОГ
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="showcase_swiper">
+                <img class="w-[100%]" src="./src/assets/svg/showcase.svg" alt="" />
+
+                <div class="showcase_swiper-item flex flex-col">
+                  <h1 class="text-[50px] uppercase max-[970px]:text-[30px]  text-[#3c3c3c]">
+                    loft <br />
+                    мебель
+                  </h1>
+                  <p class="pb-2">Современная и удобная <br class="br"> мебель в Анапе</p>
+                  <button
+                    class="bg-white border-none py-[14px] px-[15px] shadow-navbar_shadow text-[12px] text-[#414141]"
+                  >
+                    СМОТРЕТЬ КАТАЛОГ
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="showcase_swiper">
+                <img class="w-[100%]" src="./src/assets/svg/showcase.svg" alt="" />
+
+                <div class="showcase_swiper-item flex flex-col">
+                  <h1 class="text-[50px] uppercase max-[970px]:text-[30px]  text-[#3c3c3c]">
+                    loft <br />
+                    мебель
+                  </h1>
+                  <p class="pb-2">Современная и удобная <br class="br"> мебель в Анапе</p>
+                  <button
+                    class="bg-white border-none py-[14px] px-[15px] shadow-navbar_shadow text-[12px] text-[#414141]"
+                  >
+                    СМОТРЕТЬ КАТАЛОГ
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="next"><img src="./src/assets/svg/arrow1.svg" alt="" /></div>
+        <div class="prev">
+          <img src="./src/assets/svg/arrow1.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="products mt-7">
+      <div class="comtainer2">
+
+        <div class="grid container2 grid-cols-4 max-[956px]:grid-cols-3 gap-5 max-[710px]:grid-cols-2 max-[710px]:gap-3 max-[398px]:grid-cols-1  ">
+          <div class="card">
+            <img src="./src/assets/img/card1.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card2.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card3.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card4.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card5.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card6.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card7.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card8.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card9.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card10.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+
+
+          <div class="card">
+            <img src="./src/assets/img/card1.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card2.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card3.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card4.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card5.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card6.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card7.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card8.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card9.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+          <div class="card">
+            <img src="./src/assets/img/card10.png" alt="">
+            <h5 class="text-[#414141]">Валенсия Beige</h5>
+            <p class="text-[11px] text-[#414141] font-normal">Барные стулья</p>
+            <span class="text-[#414141] font-medium">2 300₽</span>
+            <img class="like" src="./src/assets/svg/card_like.svg" alt="">
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container2">
+        <div class="top_footer">
+          
+          <ul class="footer_links">
+            <li>
+             
+              <div class="flex flex-col gap-3">
+                <a href="#">Спальни</a>
+              <a href="#"> Офисная мебель</a>
+              <a href="#">Матрасы</a>
+              <a href="#"> Гостинные</a>
+              </div>
+              <div class="flex flex-col gap-3">
+                <a href="#">Кухни </a>
+                <a href="#">Прихожие</a>
+                <a href="#">Прихожие</a>
+               </div>
+            </li>
+          </ul>
+          
+          <a class="navbar-brand" href="#">
+            <img src="./src/assets/svg/logo (1).svg" alt=""></a
+          >
+        </div>
+        <br>
+        <div class="under_footer flex max-sm:flex-col">
+          <div class="flex gap-[20px]">
+            <div>
+              <label class="flex gap-[10px]" for="">
+                <img src="./src/assets/svg/phone.svg" alt="" />
+                <a
+                  class="  text-[14px] font-[400]"
+                  href="tel:8 (964) 89 99 119"
+                >
+                  8 (964) 89 99 119
+                </a>
+              </label>
+            </div>
+            <div>
+              <label class="flex  gap-[10px]" for="">
+                <img src="./src/assets/svg/delivery-icon.svg" alt="" />
+                <a class="  text-[14px] font-[400]" href="#Доставка"
+                  >Доставка</a
+                >
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".next",
+          prevEl: ".prev",
+        },
+        loop:true,
+        autoplay: {
+        delay: 3000,
+        
+        disableOnInteraction: false,
+      },
+      });
+    </script>
+  </body>
+</html>
